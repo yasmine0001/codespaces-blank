@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Page d'accueil de Mozilla</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      html {
+  font-family: 'Open Sans', sans-serif;
+  background: url(pattern.png);
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 360px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+}
+
+/* Style d'en-tête */
+
+header {
+  height: 150px;
+}
+
+header img {
+  width: 100px;
+  display: block;
+  position: absolute;
+  right: 32.5px;
+  top: 32.5px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 140px;
+  margin: 0 0 0 32.5px;
+}
+
+/* section principale et style vidéo */
+
+main {
+  background-color: #ccc;
+}
+
+article {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 2;
+}
+
+iframe {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+}
+
+/* autres liens d'informations */
+
+.more-info {
+  clear: both;
+  padding: 40px 0;
+  background-color: #c13832;
+  box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+              inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.more-info a {
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+.more-info img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Image du panda roux */
+
+.red-panda img {
+  display: block;
+  max-width: 100%;
+}
+</style> 
+</head>
+<body>
+  <header>
+    <h1> Mozilla </h1>
+     <img src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/firefox-logo120.png" alt="logo firefox">
+  
+  </header>
+
+  <principal>
+    <article> 
+      <iframe width="400" height="300" src="https://www.youtube.com/embed/ojcNcvb1olg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+      <h2>Faire basculer le Web gratuit</h2>
+      <p>Mozilla est une communauté mondiale de technologues, de penseurs et de constructeurs, travaillant ensemble pour maintenir Internet vivant et accessible, afin que les gens du monde entier puissent être des contributeurs et des créateurs informés du Web. Nous croyons que cet acte de collaboration humaine à travers une plateforme ouverte est essentiel à la croissance individuelle et à notre avenir collectif.</p> 
+      <p>Cliquez sur les images ci-dessous pour trouver plus d'informations sur les trucs sympas de Mozilla. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">Photo de panda roux</a> par Mathias Appel.</p> 
+    </article> 
+
+   <div class="plus-dinfos">
+      <a href="https://www.mozilla.org/en-US/firefox/new/">  
+        <img src="https://raw.githubusercontent.com/yasmine0001/image/main/firefoxlogo120.jpeg?token=GHSAT0AAAAAACCAN5NQXHY46H73KGSI567IZCMR2EA"
+srcset="  https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/firefox-logo120.png,
+       https://github.com/yasmine0001/image/blob/main/firefoxlogo400.jpeg?raw=true,"
+             sizes="(max-width: 400px) 120px, 400px"
+             alt="Logo Firefox">
+      </a> 
+      <a href="https://www.mozilla.org/">
+        <img src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/mozilla-dinosaur400.png"
+             srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/mozilla-dinosaur120.png,
+https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/mozilla-dinosaur400.png"
+             sizes="(max-width: 400px) 120px,
+                    400px"
+             alt="tete de dinosaure">
+      <a href="https://addons.mozilla.org/">
+        <img srcset=https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/firefox-addons120.jpg,
+https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/firefox-addons400.jpg
+           
+   sizes="(max-width: 400px) 120px,
+          400px"
+   src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/firefox-addons400.jpg"
+   alt="puzzle firefox">
+      </a> 
+      <a href="https://developer.mozilla.org/en-US/">
+        <img srcset=   ,
+           
+   sizes="(max-width: 400px) 120px,
+          400px"
+   src=""
+   alt="  ">
+      </a> 
+      <div class="clearfix"></div>
+    </div> 
+
+    <div class="panda-rouge">
+      <picture>
+<source media="(max-width: 1200px)" srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/red-panda-landscape.jpg">
+         <source media="(min-width: 600px)" srcset="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/red-panda-portrait-small.jpg">
+<img src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/mdn-splash-page-finished/red-panda-portrait-small.jpg" alt="a red panda">
+</picture>
+
+    </div> 
+
+  </principal>
+</corps>
+</html> 
